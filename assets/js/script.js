@@ -72,3 +72,13 @@ window.addEventListener("scroll", reveal);
 window.addEventListener("load", reveal);
 
 
+
+
+ document.getElementById("downloadCVBtn").addEventListener("click", function() {
+  
+    var link = document.createElement('a');
+    link.download = 'muktadir_resume.pdf'; 
+    link.href = 'C:/Users/pc/Documents/portfolio-design/assets/cv/muktadir resume.pdf';
+    link.target = '_blank'; 
+    link.click(); 
+  });
